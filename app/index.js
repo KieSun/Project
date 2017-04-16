@@ -1,5 +1,6 @@
 import j from 'jquery'
 import _ from 'lodash'
+import { cube, foo } from './foot'
 
 
 function component () {
@@ -11,4 +12,6 @@ function component () {
     return element.get(0);
 }
 
+console.log(cube(3));
+console.log(foo);
 document.body.appendChild(component());
