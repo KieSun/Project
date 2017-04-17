@@ -2,6 +2,7 @@
   "name": "my-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://kiesun.github.io/Project",
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
