@@ -22,11 +22,15 @@ class Welcome extends React.Component {
         name: 'yyy'
       };
     }
+    console.log('初始化数据');
   }
 
-  
+  componentWillMount() {
+    console.log("即将刷新")
+  }
 
   render() {
+    console.log("刷新")
     return (
         <div>
           <h1>Hello, {this.props.name}</h1>
@@ -34,6 +38,10 @@ class Welcome extends React.Component {
           <h2>{this.state.date.toString()}</h2>
         </div>
     )
+  }
+
+  componentDidMount() {
+    console.log('刷新完成')
   }
 }
 
