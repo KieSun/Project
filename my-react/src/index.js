@@ -19,10 +19,13 @@ import Welcome from './Welcome'
 
 setInterval(tick, 1000);*/
 
-
-
 ReactDOM.render(
-  <Welcome name='yck'/>,
+  <App/>,
   document.getElementById('root2')
 )
+
+// ReactDOM.render(
+//   <Welcome name='yck'/>,
+//   document.getElementById('root2')
+// )
 
